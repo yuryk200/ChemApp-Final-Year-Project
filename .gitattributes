@@ -1,0 +1,6 @@
+libil2cpp.so filter=lfs diff=lfs merge=lfs -text
+libil2cpp.dbg.so filter=lfs diff=lfs merge=lfs -text
+*.db filter=lfs diff=lfs merge=lfs -text
+*.apk filter=lfs diff=lfs merge=lfs -text
+*.aar filter=lfs diff=lfs merge=lfs -text
+*.unity3d filter=lfs diff=lfs merge=lfs -text
