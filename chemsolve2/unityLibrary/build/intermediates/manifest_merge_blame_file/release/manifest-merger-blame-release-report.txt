@@ -1,0 +1,140 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="1.0.2" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="26"
+9-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:21:3-52
+12-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:21:17-49
+13    <uses-feature
+13-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:22:3-91
+14        android:name="android.hardware.vulkan.version"
+14-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:22:17-63
+15        android:required="false" />
+15-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:22:64-88
+16    <uses-feature
+16-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:23:3-88
+17        android:name="android.hardware.touchscreen"
+17-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:23:17-60
+18        android:required="false" />
+18-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:23:61-85
+19    <uses-feature
+19-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:24:3-99
+20        android:name="android.hardware.touchscreen.multitouch"
+20-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:24:17-71
+21        android:required="false" />
+21-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:24:72-96
+22    <uses-feature
+22-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:25:3-108
+23        android:name="android.hardware.touchscreen.multitouch.distinct"
+23-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:25:17-80
+24        android:required="false" />
+24-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:25:81-105
+25
+26    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+26-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:26:3-75
+26-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:26:20-72
+27
+28    <application android:extractNativeLibs="true" >
+28-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:3:3-20:17
+28-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+29        <activity
+29-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:4:5-7:16
+30            android:name="com.unity3d.player.UnityPlayerActivity"
+30-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+31            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+31-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:4:180-361
+32            android:hardwareAccelerated="false"
+32-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:4:397-432
+33            android:launchMode="singleTask"
+33-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:4:148-179
+34            android:resizeableActivity="false"
+34-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:4:362-396
+35            android:screenOrientation="fullUser"
+35-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:4:111-147
+36            android:theme="@style/UnityThemeSelector" >
+36-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+37            <meta-data
+37-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:5:7-82
+38                android:name="unityplayer.UnityActivity"
+38-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:5:18-58
+39                android:value="true" />
+39-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:5:59-79
+40            <meta-data
+40-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:6:7-78
+41                android:name="android.notch_support"
+41-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:6:18-54
+42                android:value="true" />
+42-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:6:55-75
+43        </activity>
+44
+45        <meta-data
+45-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:8:5-69
+46            android:name="unity.splash-mode"
+46-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:8:16-48
+47            android:value="0" />
+47-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:8:49-66
+48        <meta-data
+48-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:9:5-74
+49            android:name="unity.splash-enable"
+49-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:9:16-50
+50            android:value="True" />
+50-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:9:51-71
+51        <meta-data
+51-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:10:5-78
+52            android:name="unity.launch-fullscreen"
+52-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:10:16-54
+53            android:value="True" />
+53-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+54        <meta-data
+54-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:11:5-84
+55            android:name="unity.allow-resizable-window"
+55-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:11:16-59
+56            android:value="False" />
+56-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:11:60-81
+57        <meta-data
+57-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:12:5-81
+58            android:name="notch.config"
+58-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:12:16-43
+59            android:value="portrait|landscape" />
+59-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:12:44-78
+60
+61        <receiver
+61-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:13:5-113
+62            android:name="com.unity.androidnotifications.UnityNotificationManager"
+62-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:13:15-85
+63            android:exported="false" />
+63-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:13:86-110
+64        <receiver
+64-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:14:5-18:16
+65            android:name="com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
+65-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:14:15-99
+66            android:enabled="false"
+66-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:14:100-123
+67            android:exported="false" >
+67-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:14:124-148
+68            <intent-filter>
+68-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:15:7-17:23
+69                <action android:name="android.intent.action.BOOT_COMPLETED" />
+69-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:16:9-71
+69-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:16:17-68
+70            </intent-filter>
+71        </receiver>
+72
+73        <meta-data
+73-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:19:5-99
+74            android:name="com.unity.androidnotifications.exact_scheduling"
+74-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:19:16-78
+75            android:value="0" />
+75-->Z:\unityToAndroid\unityLibrary\src\main\AndroidManifest.xml:19:79-96
+76    </application>
+77
+78</manifest>

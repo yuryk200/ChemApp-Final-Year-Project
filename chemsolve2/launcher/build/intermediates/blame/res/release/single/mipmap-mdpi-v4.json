@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "Z:\\unityToAndroid\\launcher\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi-v4\\ic_launcher_foreground.png",
+        "source": "Z:\\unityToAndroid\\launcher\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "Z:\\unityToAndroid\\launcher\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi-v4\\app_icon.png",
+        "source": "Z:\\unityToAndroid\\launcher\\src\\main\\res\\mipmap-mdpi\\app_icon.png"
+    },
+    {
+        "merged": "Z:\\unityToAndroid\\launcher\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi-v4\\ic_launcher_background.png",
+        "source": "Z:\\unityToAndroid\\launcher\\src\\main\\res\\mipmap-mdpi\\ic_launcher_background.png"
+    }
+]

@@ -1,0 +1,187 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:padding="18dp">
+
+    <!-- Top bar -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="ChemSolve"
+        android:textColor="@color/text_primary"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chips"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipRecent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recent"
+            android:textColor="@color/text_primary"
+            app:chipBackgroundColor="@color/card_fill_2"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipSaved"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saved"
+            android:textColor="@color/text_primary"
+            app:chipBackgroundColor="@color/card_fill_2"/>
+    </com.google.android.material.chip.ChipGroup>
+
+    <!-- Preview card -->
+    <FrameLayout
+        android:id="@+id/previewCard"
+        android:layout_width="0dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_glass_card"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@id/chips"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:contentDescription="Captured image"
+            android:background="@drawable/bg_glass_card"/>
+
+        <TextView
+            android:id="@+id/previewHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No image yet"
+            android:textColor="@color/text_secondary"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+    <!-- Actions -->
+    <LinearLayout
+        android:id="@+id/actionRow"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/previewCard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:text="Scan"
+            android:textAllCaps="false"
+            android:textColor="@color/text_primary"
+            app:cornerRadius="16dp"
+            app:backgroundTint="@color/accent_pink"
+            app:icon="@android:drawable/ic_menu_camera"
+            app:iconTint="@color/text_primary"
+            app:iconPadding="10dp"/>
+
+        <Space android:layout_width="10dp" android:layout_height="1dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:text="3D Mode"
+            android:textAllCaps="false"
+            android:textColor="@color/bg_mid"
+            app:cornerRadius="16dp"
+            app:backgroundTint="@color/accent_teal"
+            app:icon="@android:drawable/ic_menu_compass"
+            app:iconTint="@color/bg_mid"
+            app:iconPadding="10dp"/>
+    </LinearLayout>
+
+    <!-- Result + Save -->
+    <LinearLayout
+        android:id="@+id/resultHeader"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        app:layout_constraintTop_toBottomOf="@id/actionRow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Result"
+            android:textColor="@color/text_primary"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:textColor="@color/text_primary"
+            app:backgroundTint="@color/card_fill_2"
+            app:cornerRadius="14dp"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/resultCard"
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_glass_card"
+        android:padding="14dp"
+        app:layout_constraintTop_toBottomOf="@id/resultHeader"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Results will appear here…"
+                android:textColor="@color/text_primary"
+                android:textSize="14sp"
+                android:lineSpacingExtra="6dp"/>
+        </ScrollView>
+    </FrameLayout>
+
+    <!-- Recent / Saved list -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerScans"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/resultCard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

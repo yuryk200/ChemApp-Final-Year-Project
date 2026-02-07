@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "Z:\\unityToAndroid\\launcher\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26\\app_icon_round.xml",
+        "source": "Z:\\unityToAndroid\\launcher\\src\\main\\res\\mipmap-anydpi-v26\\app_icon_round.xml"
+    },
+    {
+        "merged": "Z:\\unityToAndroid\\launcher\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26\\app_icon.xml",
+        "source": "Z:\\unityToAndroid\\launcher\\src\\main\\res\\mipmap-anydpi-v26\\app_icon.xml"
+    }
+]

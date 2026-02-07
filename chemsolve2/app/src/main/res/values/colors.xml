@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Website-like palette -->
+    <color name="bg_top">#3A1426</color>       <!-- burgundy -->
+    <color name="bg_mid">#0B1020</color>       <!-- deep navy -->
+    <color name="bg_right">#0E2B3A</color>     <!-- teal navy -->
+
+    <color name="card_fill">#1A1F2B</color>    <!-- glass card base -->
+    <color name="card_fill_2">#151A24</color>
+    <color name="card_stroke">#2B3347</color>
+
+    <color name="text_primary">#F1F5FF</color>
+    <color name="text_secondary">#AAB3C7</color>
+
+    <color name="accent_teal">#50D7E6</color>
+    <color name="accent_pink">#E86AAE</color>
+
+    <!-- keep these to avoid old theme breakages -->
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="black">#000000</color>
+</resources>

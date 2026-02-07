@@ -1,0 +1,47 @@
+-- Merging decision tree log ---
+manifest
+ADDED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml:2:1-5:12
+	package
+		ADDED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml:2:70-108
+		INJECTED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml
+		INJECTED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml:2:109-155
+	xmlns:android
+		ADDED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml:2:156-196
+supports-screens
+ADDED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml:3:3-163
+	android:largeScreens
+		ADDED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml:3:78-105
+	android:smallScreens
+		ADDED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml:3:21-48
+	android:normalScreens
+		ADDED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml:3:49-77
+	android:xlargeScreens
+		ADDED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml:3:106-134
+	android:anyDensity
+		ADDED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml:3:135-160
+application
+ADDED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml:4:3-83
+	android:label
+		ADDED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml:4:16-48
+	android:icon
+		ADDED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml:4:49-80
+uses-sdk
+INJECTED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml
+INJECTED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml
+INJECTED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml
+INJECTED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml
+		ADDED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml
+		INJECTED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml
+		ADDED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml
+		INJECTED from Z:\unityProjects\chemsolve2\launcher\src\main\AndroidManifest.xml
