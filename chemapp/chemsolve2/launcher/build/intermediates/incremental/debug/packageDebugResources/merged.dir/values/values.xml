@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">C3Dsmiles</string>
+    <string name="game_view_content_description">Game view</string>
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="Theme.AppCompat.Light.NoActionBar"/>
+    <style name="UnityThemeSelector" parent="Theme.AppCompat.Light.NoActionBar"/>
+</resources>

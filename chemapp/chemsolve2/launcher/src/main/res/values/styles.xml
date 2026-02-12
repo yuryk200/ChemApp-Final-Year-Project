@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Unity default theme -->
+    <style name="UnityThemeSelector" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <!-- Backwards-compatible name some Unity templates expect -->
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="Theme.AppCompat.Light.NoActionBar" />
+
+</resources>
