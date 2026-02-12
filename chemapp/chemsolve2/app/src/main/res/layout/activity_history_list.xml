@@ -25,7 +25,8 @@
             android:textAllCaps="false"
             android:textColor="@color/text_primary"
             app:backgroundTint="@color/card_fill_2"
-            app:cornerRadius="14dp"/>
+            app:cornerRadius="14dp"
+        />
 
         <TextView
             android:id="@+id/title"
@@ -36,7 +37,8 @@
             android:text="History"
             android:textColor="@color/text_primary"
             android:textSize="22sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+        />
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
@@ -47,5 +49,6 @@
         app:layout_constraintTop_toBottomOf="@id/topRow"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+    />
 </androidx.constraintlayout.widget.ConstraintLayout>

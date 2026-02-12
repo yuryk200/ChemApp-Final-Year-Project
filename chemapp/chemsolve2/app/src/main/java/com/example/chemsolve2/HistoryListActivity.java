@@ -18,7 +18,7 @@ import java.util.concurrent.Executors;
 public class HistoryListActivity extends AppCompatActivity 
 {
 
-    public static final String EXTRA_MODE = "mode"; // "recent" or "saved"
+    public static final String EXTRA_MODE = "mode";
     public static final String RESULT_TEXT = "resultText";
     public static final String RESULT_IMAGE = "imagePng";
 
@@ -31,7 +31,8 @@ public class HistoryListActivity extends AppCompatActivity
     private final ExecutorService io = Executors.newSingleThreadExecutor();
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) 
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_history_list);
 
@@ -50,7 +51,8 @@ public class HistoryListActivity extends AppCompatActivity
         recycler = findViewById(R.id.recyclerHistory);
         recycler.setLayoutManager(new LinearLayoutManager(this));
 
-        adapter = new ScanAdapter(item -> {
+        adapter = new ScanAdapter(item -> 
+        {
             // return selection back to MainActivity
             Intent data = new Intent();
             data.putExtra(RESULT_TEXT, item.resultText);
@@ -64,8 +66,10 @@ public class HistoryListActivity extends AppCompatActivity
         loadList(mode);
     }
 
-    private void loadList(String mode) {
-        io.execute(() -> {
+    private void loadList(String mode) 
+    {
+        io.execute(() -> 
+        {
             List<ScanItem> items = mode.equals("saved")
                     ? scanDao.getSaved()
                     : scanDao.getRecent();
@@ -75,7 +79,8 @@ public class HistoryListActivity extends AppCompatActivity
     }
 
     @Override
-    protected void onDestroy() {
+    protected void onDestroy() 
+    {
         super.onDestroy();
         io.shutdown();
     }

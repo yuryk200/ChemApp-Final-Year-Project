@@ -93,8 +93,5 @@ def interactive_shell():
 
     return {"smiles": smiles, "formula": formula, "sdf": sdf_str}
 
-
-
-
 if __name__ == "__main__":
     app.run(host="0.0.0.0", use_reloader=False)

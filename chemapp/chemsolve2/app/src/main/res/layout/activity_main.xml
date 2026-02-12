@@ -18,7 +18,8 @@
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+    />
 
     <LinearLayout
         android:id="@+id/historyButtons"
@@ -40,11 +41,13 @@
             android:textAllCaps="false"
             android:textColor="@color/text_primary"
             app:backgroundTint="@color/card_fill_2"
-            app:cornerRadius="14dp"/>
+            app:cornerRadius="14dp"
+        />
 
         <Space
             android:layout_width="12dp"
-            android:layout_height="1dp"/>
+            android:layout_height="1dp"
+        />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnSaved"
@@ -55,7 +58,8 @@
             android:textAllCaps="false"
             android:textColor="@color/text_primary"
             app:backgroundTint="@color/card_fill_2"
-            app:cornerRadius="14dp"/>
+            app:cornerRadius="14dp"
+        />
     </LinearLayout>
 
 
@@ -77,7 +81,8 @@
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
             android:contentDescription="Captured image"
-            android:background="@drawable/bg_glass_card"/>
+            android:background="@drawable/bg_glass_card"
+        />
 
         <TextView
             android:id="@+id/previewHint"
@@ -85,7 +90,8 @@
             android:layout_height="wrap_content"
             android:text="No image yet"
             android:textColor="@color/text_secondary"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+        />
     </FrameLayout>
 
     <!-- Actions -->
@@ -113,7 +119,8 @@
             app:backgroundTint="@color/accent_pink"
             app:icon="@android:drawable/ic_menu_camera"
             app:iconTint="@color/text_primary"
-            app:iconPadding="10dp"/>
+            app:iconPadding="10dp"
+        />
 
         <Space android:layout_width="100dp" android:layout_height="1dp"/>
     </LinearLayout>
@@ -137,7 +144,8 @@
             android:text="Result"
             android:textColor="@color/text_primary"
             android:textStyle="bold"
-            android:textSize="16sp"/>
+            android:textSize="16sp"
+        />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnSave"
@@ -147,7 +155,8 @@
             android:textAllCaps="false"
             android:textColor="@color/text_primary"
             app:backgroundTint="@color/card_fill_2"
-            app:cornerRadius="14dp"/>
+            app:cornerRadius="14dp"
+        />
     </LinearLayout>
 
     <!-- Result + Unity split row -->
@@ -181,7 +190,8 @@
                     android:text="Results will appear here…"
                     android:textColor="@color/text_primary"
                     android:textSize="14sp"
-                    android:lineSpacingExtra="6dp"/>
+                    android:lineSpacingExtra="6dp"
+                />
             </ScrollView>
 
             <!-- LOADING OVERLAY (covers the result text) -->
@@ -203,7 +213,8 @@
 
                     <ProgressBar
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content" 
+                    />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -211,7 +222,8 @@
                         android:layout_marginTop="10dp"
                         android:text="Loading…"
                         android:textColor="@android:color/white"
-                        android:textSize="14sp"/>
+                        android:textSize="14sp"
+                    />
                 </LinearLayout>
             </FrameLayout>
 
@@ -219,7 +231,8 @@
 
         <Space
             android:layout_width="10dp"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent" 
+        />
 
         <!-- Unity view (1/3 width) -->
         <FrameLayout
@@ -227,6 +240,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/bg_glass_card" />
+            android:background="@drawable/bg_glass_card" 
+        />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

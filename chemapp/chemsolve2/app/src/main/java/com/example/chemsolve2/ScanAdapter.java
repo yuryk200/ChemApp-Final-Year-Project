@@ -64,7 +64,9 @@ public class ScanAdapter extends RecyclerView.Adapter<ScanAdapter.VH>
         {
             Bitmap bmp = BitmapFactory.decodeByteArray(item.imagePng, 0, item.imagePng.length);
             h.thumb.setImageBitmap(bmp);
-        } else {
+        } 
+        else 
+        {
             h.thumb.setImageDrawable(null);
         }
 
