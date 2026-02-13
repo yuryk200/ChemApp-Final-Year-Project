@@ -5,17 +5,17 @@
 <h3>Updates</h3>
 <h4>UI Improvements</h4>
 <p>Gave the UI a fresh coat of paint and implemented quality of life improvements</p>
- <div style="display:flex; gap:20px;">
-   <div div style="text-align:center;">
-     <img src="chemapp/assests/Screenshot_20230626-041538_chemsolve2.jpg" width="200"/>
-     <p><b>Old</b></p>
-   </div>
+<div style="display:flex; gap:20px;">
+  <div div style="text-align:center;">
+    <img src="chemapp/assests/Screenshot_20230626-041538_chemsolve2.jpg" width="200"/>
+    <p><b>Old</b></p>
+  </div>
 
-   <div>
-     <img src="chemapp/assests/UpdatedUI.PNG" width="200"/>
-     <p><b>New</b></p>
-   </div>
- </div> 
+  <div>
+    <img src="chemapp/assests/UpdatedUI.PNG" width="200"/>
+    <p><b>New</b></p>
+  </div>
+</div> 
  Welcome to Chemsolve, in this repo you can download the android app chemsolve and the machine learning model im2smilesv2.
 
 The App take pictures of Hydrocarbons you want to classify, the hydrocarbon is then sent to the server running the ML model which will send back the information about the hydrocarbon back to the app.
