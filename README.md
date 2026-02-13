@@ -22,7 +22,7 @@
 
 <table align="center">
   <tr>
-    <td><img src="chemapp/assests/Screenshot_20230626-041538_chemsolve2.jpg" width="200/></td>
+    <td><img src="chemapp/assests/Screenshot_20230626-041538_chemsolve2.jpg" width="200"/></td>
     <td><img src="chemapp/assests/UpdatedUI.PNG" width="190"/></td>
   </tr>
   <tr>
