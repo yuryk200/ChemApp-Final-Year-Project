@@ -1,22 +1,127 @@
-<h1>ChemSolve - Final Year Project</h1>
-<p>ChemSolve is an Android mobile application that converts images of hydrocarbon structures into chemical representations and interactive 3D molecular models. The system combines computer vision, machine learning inference and real-time 3D rendering through a client-server architecture.</p>
-<p>The goal of the project is to demonstrate an end-to-end pipeline from image acquisition to chemical interpretation and visualization on mobile devices.</p>
+# ⌬ ChemSolve - Final Year Project
 
-<h3>Updates</h3>
-<h4>UI Improvements</h4>
-<p>Gave the UI a fresh coat of paint and implemented quality of life improvements.</p>
+ChemSolve is an Android mobile application that converts images of hydrocarbon structures into chemical representations and interactive 3D molecular models. The system combines computer vision, machine learning inference and real-time 3D rendering through a client-server architecture.
 
-<table>
-  <tr>
-    <td><img src="chemapp/assests/Screenshot_20230626-041538_chemsolve2.jpg" width="200"/></td>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <td><img src="chemapp/assests/UpdatedUI.PNG" width="190"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Old UI (v1.0)</b></td>
-    <td align="center"><b>New UI (v2.0)</b></td>
-  </tr>
-</table>
+The goal of the project is to demonstrate an end-to-end pipeline from image acquisition to chemical interpretation and visualization on mobile devices.
+
+## 📋 Overview
+
+How it works - Pipeline:
+1. User captures or selects an image of a hydrocarbon structure
+2. Image is sent to a Flask backend via multipart POST request
+3. Backend performs inference and structure reconstruction
+4. Backend returns JSON containing:
+   * SMILES string
+   * Molecular formula
+   * SDF representation
+5. Android app:
+   * Displays textual results
+   * Saves scan to local database
+   * Loads SDF into Unity for real-time 3D rendering
+  
+The application demonstrates integration between mobile development, machine learning inference, and 3D visualization.
+
+## System Architecture
+
+### 📱 Mobile Client (Android)
+
+* Java-based Android application
+* Image capture via camera or gallery
+* REST-based client–server communication using OkHttp
+* Local persistence using Room database
+* Integrated Unity engine for in-app real-time 3D molecular rendering
+
+### 🧠 Backend Server (Python)
+
+* Flask REST API for image ingestion
+* Image-to-structure inference pipeline
+* Image → SMILES conversion
+* Generation of SDF files for 3D reconstruction
+* Stateless request handling for scalability
+
+### 🧪 3D Visualization (Unity)
+
+* Runtime parsing of SDF molecular data
+* Dynamic generation of atoms and bonds
+* Real-time rendering embedded inside Android activity
+* Automatic teardown and reload of molecular scenes between scans
+
+## 📚 Technical Stack
+
+#### Mobile
+* Android (Java)
+* Room Database
+* OkHttp
+* Unity (embedded)
+
+#### Backend
+* Python
+* Flask
+* RDKit
+* REST API
+
+#### Visualization
+* Unity 2021 LTS
+* OpenGL ES 3.0
+* Custom SDF parser (C#)
+
+## 🎬 DEMO
+
+### Features demonstrated:
+
+* Image scan → chemical interpretation
+* Live SMILES and formula generation
+* In-app 3D molecular visualization
+* Persistent scan history
+
+[Watch demo video](https://github.com/yuryk200/ChemApp-Final-Year-Project/blob/main/chemapp/assests/1684.mp4)
+
+
+## 🔥 Updates
+
+### Latest Changes
+
+* Added dedicated Recent and Saved pages
+* UI Imporvements
+* Automatic 3D model refresh on new scan
+* Loading overlay added during backend processing
+* Removed overlapping molecule instances
+* Improved Android–Unity synchronization
+* Added gallery image selection in addition to camera capture
+
+#### UI Improvements
+Gave the UI a fresh coat of paint and implemented quality of life improvements.
+
+##### Before Scan
+
+| <img src="chemapp/assests/Screenshot_20230626-041550_chemsolve2.jpg" width="200">| <img src="chemapp/assests/UpdatedUI.PNG" width="215" height="410">| 
+| :------------------------------------------------------------------------------: | :---------------------------------------------------------------: |
+|                                     Old UI (v1.0)                                |                    New UI (v2.0)                                  | 
+
+##### After Scan
+
+| <img src="chemapp/assests/Screenshot_20230626-041538_chemsolve2.jpg" width="200">|<img src="chemapp/assests/UpdatedUI2.PNG" width="215" height="410">|
+| :------------------------------------------------------------------------------: | :---------------------------------------------------------------: |
+|                                     Old UI (v1.0)                                |                    New UI (v2.0)                                  |
+
+##### New Unity Instance
+Instead of you having to press the "Show 3D Object" and it taking you to a seperate Unity instance to show the chemical structure, it wow whenever you scan, opens a small unity instance in the results box to show the 3D structure and updates with each scan
+
+| <img src="chemapp/assests/Screenshot_20230626-041748_chemsolve2.jpg" width="220" height="410">|<img src="chemapp/assests/UpdatedUI2.PNG" width="215" height="410">|
+| :-------------------------------------------------------------------------------------------: | :---------------------------------------------------------------: |
+|                                     Old UI (v1.0)                                             |                    New UI (v2.0)                                  |
+
+#### Dedicated Recent and Saved pages
+Added a recent page to store recent scans and made a saved page to store saved scans, each stored scan can then be viewed again on main app page.
+
+| <img src="chemapp/assests/UIRecent.PNG" width="215" height="410">|<img src="chemapp/assests/UISaved.PNG" width="215" height="410">|
+| :--------------------------------------------------------------: | :------------------------------------------------------------: |
+|                                     Recent Page                  |                    Saved Page                                  |
+
+
+
+
+
 
 
  Welcome to Chemsolve, in this repo you can download the android app chemsolve and the machine learning model im2smilesv2.
