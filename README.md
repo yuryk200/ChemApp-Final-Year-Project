@@ -6,32 +6,20 @@
 <h4>UI Improvements</h4>
 <p>Gave the UI a fresh coat of paint and implemented quality of life improvements.</p>
 
-  <p align="left">
-      <img src="chemapp/assests/Screenshot_20230626-041538_chemsolve2.jpg" width="200"/>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <img src="chemapp/assests/UpdatedUI.PNG" width="190"/>
-  </p>
-
-  <p align="left">
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <b>Old UI (v1.0)</b>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <b>New UI (v2.0)</b>
-  </p>
-
-  <table align="center">
+<table>
   <tr>
     <td align="center">
       <img src="chemapp/assests/Screenshot_20230626-041538_chemsolve2.jpg" width="200"><br>
-      <sub><b>Old UI (v1.0)</b></sub>
+      <b>Old UI (v1.0)</b>
     </td>
 
     <td align="center">
       <img src="chemapp/assests/UpdatedUI.PNG" width="190"><br>
-      <sub><b>New UI (v2.0)</b></sub>
+      <b>New UI (v2.0)</b>
     </td>
   </tr>
 </table>
+
 
 
 
