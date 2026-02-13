@@ -8,11 +8,11 @@
 <table>
   <tr>
     <td align="center">
-      <img src="chemapp/assests/Screenshot_20230626-041538_chemsolve2.jpg" width="150"/><br/>
+      <img src="chemapp/assests/Screenshot_20230626-041538_chemsolve2.jpg" width="200"/><br/>
       <b>Old</b>
     </td>
     <td align="center">
-      <img src="chemapp/assests/UpdatedUI.PNG" width="150"/><br/>
+      <img src="chemapp/assests/UpdatedUI.PNG" width="200"/><br/>
       <b>New</b>
     </td>
   </tr>
