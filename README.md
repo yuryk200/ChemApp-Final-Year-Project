@@ -7,11 +7,11 @@
 <p>Gave the UI a fresh coat of paint and implemented quality of life improvements.</p>
 <div align="center">
   <figure style="display:inline-block; margin:0 16px;">
-    <img src="images/old_version.png" width="260" alt="Old UI" />
+    <img src="chemapp/assests/Screenshot_20230626-041538_chemsolve2.jpg" width="200" />
   </figure>
 
   <figure style="display:inline-block; margin:0 16px;">
-    <img src="images/new_version.png" width="260" alt="New UI" />
+    <img src="chemapp/assests/UpdatedUI.PNG" width="190" />
     <figcaption><b>New</b></figcaption>
   </figure>
 </div>
