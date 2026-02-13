@@ -23,7 +23,7 @@ The application demonstrates integration between mobile development, machine lea
 
 ## System Architecture
 
-### 📱 Mobile Client (Android)
+### 📱 Mobile Client (Android | Java)
 
 * Java-based Android application
 * Image capture via camera or gallery
@@ -39,7 +39,7 @@ The application demonstrates integration between mobile development, machine lea
 * Generation of SDF files for 3D reconstruction
 * Stateless request handling for scalability
 
-### 🧪 3D Visualization (Unity)
+### 🧪 3D Visualization (Unity | C#)
 
 * Runtime parsing of SDF molecular data
 * Dynamic generation of atoms and bonds
@@ -74,6 +74,29 @@ The application demonstrates integration between mobile development, machine lea
 * In-app 3D molecular visualization
 * Persistent scan history
 
+![App Demo](https://github.com/yuryk200/ChemApp-Final-Year-Project/blob/main/chemapp/assests/demo.gif)
+
+## 🤖 Machine Learning Model | im2simles
+
+The CNN ML model used in this project was sourced from [ChemPixCH](https://github.com/mtzgroup/ChemPixCH?tab=readme-ov-file) by mtzgroup "Hand Drawn Hydrocarbon Recognition. The Github repo shows installation, how to build the datasets and training the nueral network.
+
+While this model was the basis for the model used in this project, the files do vary between eachother as the model made by the mtzgroup is built using TensorFlow 1.1.0. I had to update the model to use TensorFlow 2.10.1, this was done for multiple reasons which are explained here [Report](https://github.com/yuryk200/ChemApp-Final-Year-Project/blob/main/c19489214-FinalReport.pdf).
+
+The main way to update the files to TensorFlow 2.10.1 was using this line:
+```Bash
+tf_upgrade_v2 - infile foo.py - output foo-upgraded.py
+```
+Since the code was updated the Python enviroment had to be updated too, this Python env uses CUDA 11 which is important to be able to train the model on on RTX 3080 GPU and will have to be changed if trained on different GPUs.
+
+To make the conda env:
+```Bash
+conda env create -f PythonEnviroment.yaml
+```
+To activate the env:
+```Bash
+conda activate tfv2
+```
+## 🖧 Network Connections
 
 ## 🔥 Updates
 
