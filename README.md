@@ -5,21 +5,15 @@
 <h3>Updates</h3>
 <h4>UI Improvements</h4>
 <p>Gave the UI a fresh coat of paint and implemented quality of life improvements</p>
-<table width="100%">
-  <tr>
-    <td align="center">
-      <img src="images/old_version.png" width="350"/>
-      <br/>
-      <b>Old</b>
-    </td>
-    <td align="center">
-      <img src="images/new_version.png" width="350"/>
-      <br/>
-      <b>New</b>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="images/old_version.png" width="350"/><br>
+  <b>Old</b>
+</p>
 
+<p align="center">
+  <img src="images/new_version.png" width="350"/><br>
+  <b>New</b>
+</p>
 
 
 <table>
