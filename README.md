@@ -5,17 +5,23 @@
 <h3>Updates</h3>
 <h4>UI Improvements</h4>
 <p>Gave the UI a fresh coat of paint and implemented quality of life improvements.</p>
-<p align="left">
-  <img src="chemapp/assests/Screenshot_20230626-041538_chemsolve2.jpg" width="200"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="chemapp/assests/UpdatedUI.PNG" width="190"/>
-</p>
 
-<p align="center">
-  <b>Old</b>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <b>New</b>
-</p>
+<div style="display:flex; gap:60px; align-items:flex-start;">
+
+  <div style="text-align:center;">
+    <img src="chemapp/assets/Screenshot_20230626-041538_chemsolve2.jpg" width="200"/>
+    <br>
+    <b>Old</b>
+  </div>
+
+  <div style="text-align:center;">
+    <img src="chemapp/assets/UpdatedUI.PNG" width="190"/>
+    <br>
+    <b>New</b>
+  </div>
+
+</div>
+
 
 
 
