@@ -6,7 +6,7 @@
 <h4>UI Improvements</h4>
 <p>Gave the UI a fresh coat of paint and implemented quality of life improvements.</p>
 <div align="center">
-  <figure style="display:inline-block; margin:0 16px;">
+  <figure>
     <img src="chemapp/assests/Screenshot_20230626-041538_chemsolve2.jpg" width="200" />
   </figure>
 
