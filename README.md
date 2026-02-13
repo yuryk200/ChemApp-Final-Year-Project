@@ -6,12 +6,12 @@
 <h4>UI Improvements</h4>
 <p>Gave the UI a fresh coat of paint and implemented quality of life improvements</p>
 <div style="display:flex; gap:20px;">
-  <div div style="text-align:center;">
+  <div style="text-align:center;">
     <img src="chemapp/assests/Screenshot_20230626-041538_chemsolve2.jpg" width="150"/>
     <p><b>Old</b></p>
   </div>
 
-  <div>
+  <div style="text-align:center;">
     <img src="chemapp/assests/UpdatedUI.PNG" width="150"/>
     <p><b>New</b></p>
   </div>
