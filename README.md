@@ -19,6 +19,21 @@
       <b>New UI (v2.0)</b>
   </p>
 
+  <table align="center">
+  <tr>
+    <td align="center">
+      <img src="chemapp/assests/Screenshot_20230626-041538_chemsolve2.jpg" width="200"><br>
+      <sub><b>Old UI (v1.0)</b></sub>
+    </td>
+
+    <td align="center">
+      <img src="chemapp/assests/UpdatedUI.PNG" width="190"><br>
+      <sub><b>New UI (v2.0)</b></sub>
+    </td>
+  </tr>
+</table>
+
+
 
 
 
