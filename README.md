@@ -10,13 +10,11 @@
 
   <div style="text-align:center;">
     <img src="chemapp/assets/Screenshot_20230626-041538_chemsolve2.jpg" width="200"/>
-    <br>
     <b>Old</b>
   </div>
 
   <div style="text-align:center;">
     <img src="chemapp/assets/UpdatedUI.PNG" width="190"/>
-    <br>
     <b>New</b>
   </div>
 
