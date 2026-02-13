@@ -74,8 +74,6 @@ The application demonstrates integration between mobile development, machine lea
 * In-app 3D molecular visualization
 * Persistent scan history
 
-[Watch demo video](https://github.com/yuryk200/ChemApp-Final-Year-Project/blob/main/chemapp/assests/1684.mp4)
-
 
 ## 🔥 Updates
 
