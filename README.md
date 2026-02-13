@@ -4,16 +4,19 @@
 
 <h3>Updates</h3>
 <h4>UI Improvements</h4>
-<p>Gave the UI a fresh coat of paint and implemented quality of life improvements</p>
-<p align="center">
-  <img src="images/old_version.png" width="350"/><br>
-  <b>Old</b>
-</p>
+<p>Gave the UI a fresh coat of paint and implemented quality of life improvements.</p>
+<div align="center">
+  <figure style="display:inline-block; margin:0 16px;">
+    <img src="images/old_version.png" width="260" alt="Old UI" />
+    <figcaption><b>Old</b></figcaption>
+  </figure>
 
-<p align="center">
-  <img src="images/new_version.png" width="350"/><br>
-  <b>New</b>
-</p>
+  <figure style="display:inline-block; margin:0 16px;">
+    <img src="images/new_version.png" width="260" alt="New UI" />
+    <figcaption><b>New</b></figcaption>
+  </figure>
+</div>
+
 
 
 <table>
