@@ -7,8 +7,8 @@
 <p>Gave the UI a fresh coat of paint and implemented quality of life improvements.</p>
 <div align="center">
   <figure style="display:inline-block; margin:0 16px;">
-    <img src="images/old_version.png" width="260" alt="Old UI" /><br/>
-    <figcaption><b>Old</b></figcaption>
+    <img src="images/old_version.png" width="260" alt="Old UI" />
+    <b>Old</b>
   </figure>
 
   <figure style="display:inline-block; margin:0 16px;">
