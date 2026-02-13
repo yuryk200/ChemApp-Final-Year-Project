@@ -1,4 +1,11 @@
-Welcome to Chemsolve, in this repo you can download the android app chemsolve and the machine learning model im2smilesv2.
+<h1>ChemSolve - Final Year Project</h1>
+<p>ChemSolve is an Android mobile application that converts images of hydrocarbon structures into chemical representations and interactive 3D molecular models. The system combines computer vision, machine learning inference and real-time 3D rendering through a client-server architecture.</p>
+<p>The goal of the project is to demonstrate an end-to-end pipeline from image acquisition to chemical interpretation and visualization on mobile devices.</p>
+ 
+ 
+ 
+ 
+ Welcome to Chemsolve, in this repo you can download the android app chemsolve and the machine learning model im2smilesv2.
 
 The App take pictures of Hydrocarbons you want to classify, the hydrocarbon is then sent to the server running the ML model which will send back the information about the hydrocarbon back to the app.
 
