@@ -7,8 +7,8 @@
 <p>Gave the UI a fresh coat of paint and implemented quality of life improvements.</p>
 
 <table align="center" border: none!important >
-  <tr>
-    <td><img src="chemapp/assests/Screenshot_20230626-041538_chemsolve2.jpg" width="200"/></td>
+  <tr border: none!important>
+    <td border: none!important><img src="chemapp/assests/Screenshot_20230626-041538_chemsolve2.jpg" width="200"/></td>
     <td><img src="chemapp/assests/UpdatedUI.PNG" width="190"/></td>
   </tr>
   <tr>
