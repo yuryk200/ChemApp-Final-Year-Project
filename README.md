@@ -5,21 +5,21 @@
 <h3>Updates</h3>
 <h4>UI Improvements</h4>
 <p>Gave the UI a fresh coat of paint and implemented quality of life improvements</p>
-<div align="center">
-  <div style="display:flex; justify-content:center; gap:40px;">
+<table width="100%">
+  <tr>
+    <td align="center">
+      <img src="images/old_version.png" width="350"/>
+      <br/>
+      <b>Old</b>
+    </td>
+    <td align="center">
+      <img src="images/new_version.png" width="350"/>
+      <br/>
+      <b>New</b>
+    </td>
+  </tr>
+</table>
 
-    <div style="text-align:center;">
-      <img src="chemapp/assests/Screenshot_20230626-041538_chemsolve2.jpg" width="200"><br>
-      <sub><b>Old</b></sub>
-    </div>
-
-    <div style="text-align:center;">
-      <img src="chemapp/assests/UpdatedUI.PNG" width="190"><br>
-      <sub><b>New</b></sub>
-    </div>
-
-  </div>
-</div>
 
 
 <table>
