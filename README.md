@@ -8,15 +8,17 @@
 
 <div style="display:flex; gap:60px; align-items:flex-start;">
 
-  <div style="text-align:center;">
-    <img src="chemapp/assets/Screenshot_20230626-041538_chemsolve2.jpg" width="200"/>
-    <b>Old</b>
-  </div>
+  <p align="center">
+      <img src="chemapp/assests/Screenshot_20230626-041538_chemsolve2.jpg" width="200"/>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="chemapp/assests/UpdatedUI.PNG" width="190"/>
+  </p>
 
-  <div style="text-align:center;">
-    <img src="chemapp/assets/UpdatedUI.PNG" width="190"/>
-    <b>New</b>
-  </div>
+  <p align="center">
+      <b>Old</b>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <b>New</b>
+  </p>
 
 </div>
 
