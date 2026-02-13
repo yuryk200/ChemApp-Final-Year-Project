@@ -12,7 +12,7 @@
       <b>Old</b>
     </td>
     <td align="center">
-      <img src="chemapp/assests/UpdatedUI.PNG" width="200"/><br/>
+      <img src="chemapp/assests/UpdatedUI.PNG" width="190"/><br/>
       <b>New</b>
     </td>
   </tr>
