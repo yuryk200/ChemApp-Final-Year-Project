@@ -6,9 +6,9 @@
 <h4>UI Improvements</h4>
 <p>Gave the UI a fresh coat of paint and implemented quality of life improvements.</p>
 <p align="center">
-  <img src="images/old_version.png" width="350"/>
+  <img src="chemapp/assests/Screenshot_20230626-041538_chemsolve2.jpg" width="200"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="images/new_version.png" width="350"/>
+  <img src="chemapp/assests/UpdatedUI.PNG" width="190"/>
 </p>
 
 <p align="center">
