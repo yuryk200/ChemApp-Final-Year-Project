@@ -138,7 +138,7 @@ This Unity project contains the 3D rendering logic, molecule generation and inte
 👉 The full Unity project, technical documentation and implementation details
 can be found [here](https://github.com/yuryk200/Unity-3D-SDF).
 
-### Overview
+### Features
 - Procedural molecule generation
 - Interactive rotation and scaling
 - Mobile-optimised rendering
