@@ -28,7 +28,7 @@ The application demonstrates integration between mobile development, machine lea
 - [🎬 DEMO](#-demo)
 - [🤖 Machine Learning Model | im2smiles](#-machine-learning-model--im2smiles)
 - [🖧 Network Connections](#-network-connections)
-- [⚙️ Unity Instance](#unity-instance)
+- [⚙️ Unity Instance](#-unity--instance)
 - [🔥 Updates](#-updates)
 
 ## System Architecture
