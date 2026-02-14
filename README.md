@@ -22,7 +22,7 @@ How it works - Pipeline:
 The application demonstrates integration between mobile development, machine learning inference and 3D visualization.
 
 ## 📖 TOC
-- [📋 Overview](#overview)
+- [📋 Overview](#-overview)
 - [System Architecture](#system-architecture)
 - [📚 Technical Stack](#-technical-stack)
 - [🎬 DEMO](#demo)
