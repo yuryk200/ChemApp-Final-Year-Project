@@ -25,7 +25,7 @@ The application demonstrates integration between mobile development, machine lea
 - [📋 Overview](#-overview)
 - [System Architecture](#system-architecture)
 - [📚 Technical Stack](#-technical-stack)
-- [🎬 DEMO](#demo)
+- [🎬 DEMO](#-demo)
 - [🤖 Machine Learning Model | im2smiles](#machine-learning-model--im2smiles)
 - [🖧 Network Connections](#network-connections)
 - [⚙️ Unity Instance](#unity-instance)
