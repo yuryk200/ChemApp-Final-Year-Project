@@ -97,6 +97,29 @@ To activate the env:
 conda activate tfv2
 ```
 ## 🖧 Network Connections
+Currently with how the pipeline is set-up the mobile application only works over the local network.
+
+You first run the flask server with:
+```Bash
+python server.py
+```
+This starts the server and you should get a output like this:
+
+<img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/13fba25f-1744-482f-8df4-7afbb3379764" />
+
+Use the very last address that appears for you, in my case "192.169.1.6:5000" and plug it into this line in MainActivity.java in the chemsolve/app folder: 
+
+<img width="500" height="70" alt="image" src="https://github.com/user-attachments/assets/3619737e-3fbe-440d-8b85-eb76db277655" />
+
+Then in android studio you need to rebuild the project for the changes to take effect.
+
+There are methods I used to connect the mobile application over any network that being OpenVPN and Ngrok.
+
+With OpenVPN you want to make an account and download the app on your phone and device you are running the server from. Then activate the VPN and plug in the address it provides you into the MainActivity.java line shown above. 
+
+This is what the address looks like:
+
+<img src="chemapp/assests/Picture1.png" width="200"/>
 
 ## 🔥 Updates
 
