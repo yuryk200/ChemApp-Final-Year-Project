@@ -21,11 +21,9 @@ How it works - Pipeline:
   
 The application demonstrates integration between mobile development, machine learning inference and 3D visualization.
 
-## 📃 TOC
-
+## TOC
 -[📋 Overview](#overview)
--[📃 TOC](#toc)
--[System Architecture](system-architecture)
+-[System Architecture](#system-architecture)
 -[📚 Technical Stack](#technical-stack)
 
 ## System Architecture
@@ -130,14 +128,15 @@ This is what the address looks like:
 
 ## ⚙️ Unity Instance
 
-Chemsolve includes a Unity-based molecular visualisation system used for interactive molecule rendering and rotation.
+ChemSolve includes a Unity-based molecular visualisation system used for
+interactive molecule rendering and rotation.
 
-This Unity project contains the 3D rendering logic, molecule generation, and interaction scripts used by the Android applications. 
+The Unity launcher in the chemsolve mobile app might not contain the scripts used for the 3D creation logic, this is because the Unity Launcher is a exported android-compatible build used for android applications, but the full scripts and scene set up can be found in the full Unity project repo.
 
-The Unity Launcher in the chemsolve2 folder is an android-compatible export build that may not contain the original scripts used for the 3D scripting logic, that will only be available in the seperate Unity repo on my GitHub.
+This Unity project contains the 3D rendering logic, molecule generation and interaction scripts used by the Android application.
 
-👉 The full Unity project, technical documentation, and implementation details
-can be found [here](https://github.com/yuryk200/Unity-3D-SDF)
+👉 The full Unity project, technical documentation and implementation details
+can be found [here](https://github.com/yuryk200/Unity-3D-SDF).
 
 ### Overview
 - Procedural molecule generation
@@ -185,7 +184,3 @@ Added a recent page to store recent scans and made a saved page to store saved s
 | <img src="chemapp/assests/UIRecent.PNG" width="215" height="410">|<img src="chemapp/assests/UISaved.PNG" width="215" height="410">|
 | :--------------------------------------------------------------: | :------------------------------------------------------------: |
 |                                     Recent Page                  |                    Saved Page                                  |
-
-
-In this URL in the chemsolve app
-![Picture2](https://github.com/yuryk200/chemsolve/assets/82842394/90ff6d4c-167f-4f5e-8f34-71c3fdb658e9)
