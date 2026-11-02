@@ -1,3 +1,20 @@
+<p align="center">
+  <img src="chemapp/assests/chemsolve.png" alt="ChemSolve — Image-to-Molecule Android Application" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=androidstudio,java,py,flask,tensorflow,unity,cs&amp;theme=dark&amp;perline=7" alt="Android Studio, Java, Python, Flask, TensorFlow, Unity and C#" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-Computer_Vision-2A6F97?style=flat-square" alt="Computer Vision" />
+  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=flat-square&amp;logo=android&amp;logoColor=white" alt="Android" />
+  <img src="https://img.shields.io/badge/Backend-Flask_REST_API-3776AB?style=flat-square" alt="Flask REST API" />
+  <img src="https://img.shields.io/badge/ML-TensorFlow-FF6F00?style=flat-square&amp;logo=tensorflow&amp;logoColor=white" alt="TensorFlow" />
+  <img src="https://img.shields.io/badge/3D-Unity_%2B_C%23-545B78?style=flat-square&amp;logo=unity&amp;logoColor=white" alt="Unity and C#" />
+  <img src="https://img.shields.io/badge/Chemistry-RDKit-337D82?style=flat-square" alt="RDKit" />
+</p>
+
 # ⌬ ChemSolve - Final Year Project
 
 ChemSolve is an Android mobile application that converts images of hydrocarbon structures into chemical representations and interactive 3D molecular models. The system combines computer vision, machine learning inference and real-time 3D rendering through a client-server architecture.
